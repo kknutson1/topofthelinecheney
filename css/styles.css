@@ -1,6 +1,53 @@
 /* My Awesome Styles*/
+/*background color ideas:
+green #2c593f or 44 89 63
+creme: 9c8541 or 156 133 65
+tan: 8c683b or 140 104 59
+brown: 593a1e or 89 58 30
+darker brown: 472b16 or 71 43 22
+*/
 
-body {
-    background: url(../img/upfeathers.png)
-        
+
+html {
+    background-color: #1e3d2b;
+}
+
+nav,
+a {
+    color: #9c8541;
+    
+}
+li {
+    list-style: none;
+  display: inline-block;
+}
+
+/* Link& Visited State */
+a:link,
+a:visited {
+  display: block;
+  height:1px;
+  line-height: 32px;
+  padding-top: 0;
+  text-align: left;
+  text-decoration: none;
+  /* vertical-align: center; */
+  width: 100px;
+  
+  
+}
+/*code copied from http://codepen.io/manikoth/pen/Nxqrzo */
+.gallery {
+  height: 500px;
+}
+.item {
+  text-align: center;
+}
+
+.item img {
+  width: 400px;  
+}
+
+.controls img {
+  width: 50px;
 }
